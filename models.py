@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer, T
 from sklearn.svm import LinearSVC
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn import metrics
-from sklearn.pipeline import make_pipeline, Pipeline
+from sklearn.pipeline import make_pipeline
 import joblib
 
 def get_the_data():
